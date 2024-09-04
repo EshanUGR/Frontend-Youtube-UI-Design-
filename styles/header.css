@@ -13,7 +13,12 @@
 }
 .right-section{
  
-  flex:1;
+ display: flex;
+ width:200px;
+ margin-right: 20px;
+align-items: center;
+justify-content: space-between;
+flex-shrink: 0;
 }
 .middle-section{
  
@@ -35,6 +40,7 @@
   border-color: gray;
   border-radius: 2px;
   box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+  width:0px;
  
 }
 
@@ -84,4 +90,21 @@
   margin-top: 4px;
   background-color: rgb(240, 238, 238);
 
+}
+
+.upload-icon{
+  height: 24px;
+
+}
+
+.youtube-apps-icons{
+  height: 24px;
+}
+.notifications-icons{
+  height: 24px;
+}
+
+.current-user-picture{
+  height: 32px;
+  border-radius: 16px;
 }
