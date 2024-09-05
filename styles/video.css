@@ -9,6 +9,7 @@ width:100%;
      border-style: 5px solid red; */
      border-style: 2px solid red;
      
+     
    
     }
 
@@ -60,6 +61,7 @@ width:100%;
  }
  .thumbnail-row{
   margin-bottom: 12px;
+  position:relative;
  }
  .video-author{
   font-size:12px;
@@ -77,4 +79,21 @@ width:100%;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap:14px;
+ }
+
+ .video-time{
+    background-color: black;
+    color:white;
+    position:absolute;
+bottom:8px;
+right:5px;
+font-weight: 500;
+font-size:12px;
+font-family: Roboto,Arial;
+padding-right:2px;
+padding-left:2px;
+padding-top:4px;
+padding-bottom: 4px;
+border-radius: 2px;
+
  }
